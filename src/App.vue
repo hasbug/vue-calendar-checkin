@@ -18,81 +18,55 @@ export default {
 
         checkInData:[
             {
-                "checkin_id": 2196,
                 "time": "2017-09-05 08:46",
-                "interval": 2,
                 "amount": 4
             },
             {
-                "checkin_id": 2045,
                 "time": "2017-09-04 09:51",
-                "interval": 1,
                 "amount": 3
             },
             {
-                "checkin_id": 1215,
                 "time": "2017-08-30 17:10",
-                "interval": 3,
                 "amount": 5
             },
             {
-                "checkin_id": 1065,
                 "time": "2017-08-29 11:46",
-                "interval": 2,
                 "amount": 4
             },
             {
-                "checkin_id": 943,
                 "time": "2017-08-28 18:30",
-                "interval": 1,
                 "amount": 3
             },
             {
-                "checkin_id": 583,
                 "time": "2017-08-26 09:12",
-                "interval": 4,
                 "amount": 5
             },
             {
-                "checkin_id": 449,
                 "time": "2017-08-25 09:29",
-                "interval": 3,
                 "amount": 5
             },
             {
-                "checkin_id": 146,
                 "time": "2017-08-23 17:01",
-                "interval": 2,
                 "amount": 4
             },
             {
-                "checkin_id": 11,
                 "time": "2017-08-22 15:18",
-                "interval": 1,
                 "amount": 3
             },
             {
-                "checkin_id": 9,
                 "time": "2017-08-17 15:24",
-                "interval": 1,
                 "amount": 3
             },
             {
-                "checkin_id": 6,
                 "time": "2017-08-14 09:03",
-                "interval": 2,
                 "amount": 4
             },
             {
-                "checkin_id": 4,
                 "time": "2017-08-13 08:59",
-                "interval": 1,
                 "amount": 3
             },
             {
-                "checkin_id": 1,
                 "time": "2017-08-02 16:41",
-                "interval": 1,
                 "amount": 3
             }
         ],
