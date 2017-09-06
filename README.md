@@ -1,4 +1,4 @@
-# vue-checkin
+# vue-calendar-checkin(尚在完善中)
 
 > 基于vue2.x的日历签到组件（后期会改成真正的vue插件）
 
