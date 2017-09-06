@@ -1,6 +1,8 @@
 # vue-checkin
 
-> member  checkin with calendar
+> 基于vue2.x的日历签到组件（后期会改成真正的vue插件）
+
+![](https://s1.imgchr.com/2017/09/06/mi88x.jpg)
 
 ## Build Setup
 
