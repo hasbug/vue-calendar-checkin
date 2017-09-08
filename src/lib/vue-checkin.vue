@@ -21,7 +21,12 @@
                     <template  v-for="data in item">
                         <td :class="{'disa':monthClass(data.month), 'cur_day': doCheck(data.date),'check_day': isCheck(data.date) }" v-if="isCheck(data.date)">
                             <!--<span :class="{'ui-state-up': true }">已签到</span>-->
+                            <template v-if="doCheck(data.date)">
+                                今天
+                            </template>
+                            <template v-else>
                             {{data.date | getCD}}
+                            </template>
                             <span :class="{'ui-state-down': true }">金币+{{getGold(data.date)}}</span>
                         </td>
 
@@ -55,6 +60,8 @@
                 month : '',
                 day : '',
                 date : '',
+                startTime:'',
+                endTime:'',
                 dateArr: [],
                 hasCheckin:false,
             };
@@ -73,6 +80,19 @@
         filters: {
             getCD (val){
                 return val.split('/')[2]
+            }
+        },
+
+
+        watch: {
+            dateArr: {
+                deep: true,
+                handler: function (val, oldVal) {
+                    this.startTime = val[0][0].date;
+                    this.endTime = val[5][6].date;
+                    console.log(this.startTime)
+                    console.log(this.endTime)
+                }
             }
         },
         methods: {

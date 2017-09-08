@@ -18,6 +18,10 @@ export default {
 
         checkInData:[
             {
+                "time": "2017-09-08 08:46",
+                "amount": 10
+            },
+            {
                 "time": "2017-09-05 08:46",
                 "amount": 4
             },
