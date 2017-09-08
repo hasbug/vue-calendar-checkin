@@ -83,8 +83,9 @@ export default {
 
             //你的查询签到记录方法在签到后再次查询
         },
-        getCheckInData(time) {  //你的按月份查询签到记录方法，取得后将值赋值给this.checkInData   日期格式:2017/9
-            console.log(time)   //最好将这个年和月保存起来，上面签到方法执行后再次查询当月的签到记录
+        getCheckInData(date,times) {  //你的按月份查询签到记录方法，取得后将值赋值给this.checkInData   日期格式:2017/9
+            console.log(date)   //最好将这个年和月保存起来，上面签到方法执行后再次查询当月的签到记录
+            console.log(times)   //最好将这个年和月保存起来，上面签到方法执行后再次查询当月的签到记录
         },
     }
 }

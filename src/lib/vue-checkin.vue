@@ -90,8 +90,7 @@
                 handler: function (val, oldVal) {
                     this.startTime = val[0][0].date;
                     this.endTime = val[5][6].date;
-                    console.log(this.startTime)
-                    console.log(this.endTime)
+                    this.setMonth(this.year+'/'+this.month,[this.startTime, this.endTime]);
                 }
             }
         },
@@ -101,8 +100,8 @@
                 this.$emit('checkIn')
             },
 
-            setMonth (ym){
-                this.$emit('setMonth',ym)
+            setMonth (date,){
+                this.$emit('setMonth',date,[this.startTime, this.endTime])
             },
 
             monthClass(type) {
@@ -199,7 +198,6 @@
                 this.dateArr = arr;
                 // console.log(this.dateArr);
 
-                this.setMonth(this.year+'/'+this.month);
             },
             nextMonth() {
                 if(this.month == 12) {
