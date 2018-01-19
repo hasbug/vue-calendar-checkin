@@ -39,6 +39,9 @@ Vue.use(vueCheckin)
 ```
 
 
+
+
+
 ## Build Setup
 
 ``` bash

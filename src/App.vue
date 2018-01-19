@@ -18,6 +18,14 @@ export default {
 
         checkInData:[
             {
+                "time": "2018-01-19 16:06",
+                "amount": 6
+            },
+            {
+                "time": "2018-01-02 10:12",
+                "amount": 6
+            },
+            {
                 "time": "2017-09-08 08:46",
                 "amount": 10
             },
@@ -80,6 +88,8 @@ export default {
 
         checkIn (){   //这里是你自己的签到方法。
             console.log('签到');
+            console.log('在这里，向后端请求签到方法')
+            console.log('重新查询签到记录，今日就会现实已签到')
 
             //你的查询签到记录方法在签到后再次查询
         },
