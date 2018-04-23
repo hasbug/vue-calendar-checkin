@@ -1,6 +1,8 @@
-# vue-calendar-checkin(尚在完善中)
+# vue-calendar-checkin(不再维护)
 
-> 基于vue2.x的日历签到组件（后期会改成真正的vue插件）
+>当前组件不再维护，烦请移步到npm包位置：https://github.com/hasbug/vue-checkin
+
+> 基于vue2.x的日历签到组件
 
 > 日历的代码基于[Arguiwu的日历](https://github.com/Arguiwu/calendar)修改
 
@@ -14,11 +16,11 @@
 ```javascript
 checkInData:[
     {
-        "time": "2017-09-05 08:46",  //日期
+        "time": "2018/04/05 08:46",  //日期
         "amount": 4 //所得金币
     },
     {
-        "time": "2017-09-04 09:51",
+        "time": "2018/04/04 09:51",
         "amount": 3
     },
 ]
@@ -41,7 +43,6 @@ Vue.use(vueCheckin)
 
 
 
-
 ## Build Setup
 
 ``` bash
@@ -55,4 +56,3 @@ npm run dev
 npm run build
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
